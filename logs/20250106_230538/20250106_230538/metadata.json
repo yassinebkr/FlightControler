@@ -1,0 +1,17 @@
+{
+    "session_id": "20250106_230538",
+    "end_time": "2025-01-06T23:05:38.824465",
+    "statistics": {
+        "session_id": "20250106_230538",
+        "total_records": 174,
+        "events": 0,
+        "last_write": 1736201138.824465,
+        "buffer_sizes": {
+            "vehicle_state": 0,
+            "environment": 0,
+            "control": 0,
+            "sensor": 0,
+            "events": 0
+        }
+    }
+}

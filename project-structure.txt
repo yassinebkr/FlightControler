@@ -1,0 +1,35 @@
+paraglider_sim/
+├── main.py                   # Main entry point
+├── requirements.txt          # Project dependencies
+├── config/
+│   ├── __init__.py
+│   ├── constants.py          # Physical constants and unit conversions
+│   ├── general_config.py     # General simulation settings
+│   ├── vehicle_config.py     # Vehicle parameters
+│   └── flight_config.py      # Flight software settings
+├── models/
+│   ├── __init__.py
+│   ├── vehicle.py           # Base vehicle class
+│   ├── paraglider.py        # Paraglider model
+│   └── environment.py       # Atmospheric and wind models
+├── controllers/
+│   ├── __init__.py
+│   ├── flight_controller.py # Main flight control logic
+│   └── navigation.py        # Navigation strategies
+│   └── state_estimator.py        #State estimation
+
+├── sensors/
+│   ├── __init__.py
+│   ├── sensor_base.py       # Base sensor class
+│   ├── magnetometer.py
+│   ├── barometer.py
+│   └── gps.py
+│   └── imu.py
+├── visualization/
+│   ├── __init__.py
+│   └── visualizer.py        # PyVista visualization
+└── utils/
+    ├── __init__.py
+    ├── math_utils.py        # Math helper functions
+    └── logger.py           # Logging utilities
+    └── Time-manager.py     # Time Manager
