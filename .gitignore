@@ -1,0 +1,25 @@
+# Ignore specific folders
+dev/
+logs/
+old/
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.env
+*.venv
+
+# Bytecode files
+*.pyc
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+*.~lock.*
